@@ -1,4 +1,4 @@
-### What is Kubernetes ###
+# What is Kubernetes #
 
     Kubernetes is an open-source platform that helps manage, deploy, and scale containerized applications: 
 
@@ -15,11 +15,11 @@ What is Kubernetes and How It Works - Quobyte
 Kubernetes is often called "k8s" or "k-eights", where the 8 stands for the number of letters between the “K” and the “s”. The word "Kubernetes" comes from ancient Greek and means "helmsman" or "pilot". 
 Kubernetes was developed by Google engineers in 2014 and is now managed by the Cloud Native Computing Foundation (CNCF). It's widely adopted by companies of all sizes, including half of the Fortune 100. 
 
-### Kubernetes – Architecture ###
+# Kubernetes – Architecture #
 
 Kubernetes Cluster mainly consists of Worker Machines called Nodes and a Control Plane. In a cluster, there is at least one worker node. The Kubectl CLI communicates with the Control Plane and the Control Plane manages the Worker Nodes. In this article, we are going to discuss in detail the architecture of Kubernetes.
 
-# Table of Content #
+## Table of Content ##
 
     Kubernetes – Cluster Architecture
     Kubernetes Components
