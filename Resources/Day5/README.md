@@ -61,13 +61,13 @@ Node Components
 These are the nodes where the actual work happens. Each Node can have multiple pods and pods have containers running inside them. There are 3 processes in every Node that are used to Schedule and manage those pods.
 
 The following are the some of the components related to Node:
-1. Container runtime
+## 1. Container runtime ##
    A container runtime is needed to run the application containers running on pods inside a pod. Example-> Docker
 
-2. kubelet
+## 2. kubelet ##
    kubelet interacts with both the container runtime as well as the Node. It is the process responsible for starting a pod with a container inside.
 
-3. kube-proxy
+## 3. kube-proxy ##
    It is the process responsible for forwarding the request from Services to the pods. It has intelligent logic to forward the request to the right pod in the worker node.
 Node Components
 Addons Plug-in
